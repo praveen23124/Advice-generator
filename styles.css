@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.advice-container{
+    margin-top: 150px;
+    background-color: hsl(217, 19%, 24%);
+    width: 30rem;
+    height: 15rem;
+    border-radius: 15px;
+    position: relative;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.adviceNo{
+    margin-top: 1rem;
+    color: hsl(150, 100%, 66%);
+}
+
+h1{
+    width: 70%;
+    font-size: 1.5rem;
+    color: hsl(193, 38%, 86%);
+}
+
+.circle{
+    position: absolute;
+    bottom: -25px;
+    left: 13rem;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+      }
+      
+      .circle:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px hsl(150, 100%, 66%);
+      }
+
+
+.pattern{
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+    width: 70%;
+}
+    
